@@ -1,68 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row" style="position: relative">
+        <div class="col-12">
+          <img
+            class="img-fluid"
+            src="./images/mobile/image-header.jpg"
+            alt="header"
+          />
+        </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+        <div class="row" style="position: absolute;">
+          <div class="col-3" style="position: absolute; left: 30px; top: 8px;">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+          <div class="col-3" style="position: absolute; right: 0; top: 8px;">
+            <img src="./images/icon-hamburger.svg" alt="" />
+          </div>
+        </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
+        <div class="row" style="position: absolute; top: 40%; bottom: 50%; text-align: center;">
+          <h1>WE ARE CREATIVE</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="img-transform">
+            <img
+              src="./images/mobile/image-transform.jpg"
+              class="img-fluid"
+              alt="transform"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col" style="text-align: center">
+          <h2 class="p-3">Transform your brand</h2>
+          <p class="pb-3">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <h4>Learn more</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="img-stand-out">
+            <img
+              src="./images/mobile/image-stand-out.jpg"
+              class="img-fluid"
+              alt="stand out"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <h4>Learn more</h4>
+        </div>
+      </div>
+
+      <div class="row" style="position: relative">
+        <div class="col-12">
+          <img
+            src="./images/mobile/image-graphic-design.jpg"
+            class="img-fluid"
+            alt="graphic design"
+          />
+        </div>
+        <div class="col-12" style="position: absolute; top: 65%">
+          <h2>Graphic design</h2>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" style="position: relative">
+        <div class="col-12">
+          <img
+            src="./images/mobile/image-photography.jpg"
+            class="img-fluid"
+            alt="photography"
+          />
+        </div>
+        <div class="col-12" style="position: absolute; top: 70%">
+          <h2>Photography</h2>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h3>Client testimonials</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <img src="./images/image-emily.jpg" alt="avatar" />
+          </div>
+
+          <div class="col-12">
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h5>Emily R.</h5>
+            <h6>Marketing Director</h6>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <img src="./images/image-thomas.jpg" alt="avatar" />
+          </div>
+
+          <div class="col-12">
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h5>Thomas S.</h5>
+            <h6>Chief Operating Officer</h6>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <img src="./images/image-jennie.jpg" alt="avatar" />
+          </div>
+
+          <div class="col-12">
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h5>Jennie F.</h5>
+            <h6>Business Owner</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-0">
+        <div class="col-6">
+          <img
+            class="img-fluid"
+            src="./images/mobile/image-gallery-milkbottles.jpg"
+            alt="milkbottles"
+          />
+        </div>
+        <div class="col-6">
+          <img
+            class="img-fluid"
+            src="./images/mobile/image-gallery-orange.jpg"
+            alt="orange"
+          />
+        </div>
+        <div class="col-6">
+          <img
+            class="img-fluid"
+            src="./images/mobile/image-gallery-cone.jpg"
+            alt="cone"
+          />
+        </div>
+        <div class="col-6">
+          <img
+            class="img-fluid"
+            src="./images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="sugar cubes"
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-content-center p-3">
+        <div class="col-12">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+
+        <div class="row">
+          <div class="col-4">About</div>
+          <div class="col-4">Services</div>
+          <div class="col-4">Projects</div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <img src="./images/icon-facebook.svg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="./images/icon-instagram.svg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="./images/icon-twitter.svg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="./images/icon-pinterest.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About
   Services
   Projects
   Contact
 
-  We are creatives
-
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
   About
   Services
   Projects
-  Contact
+  Contact -->
 
-  <div class="attribution">
+    <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
 </html>
