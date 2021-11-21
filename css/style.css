@@ -1,28 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
 body {
-    box-sizing: border-box;
+  background-color: red;
+  font-family: "Barlow", sans-serif;
 }
 
-.container-fluid {
-    background-color: red;
+.container-sm {
+  height: 600px;
+  background-color: royalblue;
+  background-image: url(/images/desktop/image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
-.bg-img {
-    position: relative;
-    top: 0;
-    left: 0;
+.contauiner-fluid {
+  position: relative;
 }
 
-.bg-img {
-    width: 100vh;
-    position: relative;
-    top: 0;
-    left: 0;
-    /* border: 1px solid black; */
+.centered {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 5px;
+  position: absolute;
+  top: 144px;
 }
 
-.img-fluid.logo{
-    position: absolute;
-    top: 15px;
-    left: 13px;
-    /* border: 1px solid black; */
+.arrow {
+  position: absolute;
+  bottom: -366px;
+  left: 50%;
 }
